@@ -1,0 +1,390 @@
+2025-04-04 14:26:31,704 INFO - Starting the scheduler
+2025-04-04 14:26:31,705 INFO - Processing each file at most -1 times
+2025-04-04 14:26:31,709 INFO - Launched DagFileProcessorManager with pid: 14352
+2025-04-04 14:26:31,711 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 14:26:31,715 INFO - Configured default timezone Timezone('UTC')
+2025-04-04 14:26:44,763 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+Cache-Control: max-age=0
+Referer: https://github.com/
+X-Request-Id: 7a41abb15c2754282dcec953548b23af
+X-Real-Ip: 176.198.203.233
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Fetch-Site: cross-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Dest: document
+Sec-Ch-Ua: "Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: bookish-space-spoon-r6pww65g7qx35qx9-8793.app.github.dev
+X-Forwarded-For: 176.198.203.233
+Proxy-Connection: Keep-Alive
+
+.
+2025-04-04 14:26:44,764 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-04-04 14:26:45,142 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+Referer: https://bookish-space-spoon-r6pww65g7qx35qx9-8793.app.github.dev/
+X-Request-Id: 38ef1c79aaba3043478902745bb3eec6
+X-Real-Ip: 176.198.203.233
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua: "Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: bookish-space-spoon-r6pww65g7qx35qx9-8793.app.github.dev
+X-Forwarded-For: 176.198.203.233
+Proxy-Connection: Keep-Alive
+
+.
+2025-04-04 14:26:45,143 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-04-04 14:30:43,651 INFO - Exiting gracefully upon receiving signal 15
+2025-04-04 14:30:44,653 INFO - Sending Signals.SIGTERM to group 14352. PIDs of all processes in the group: [14352]
+2025-04-04 14:30:44,654 INFO - Sending the signal Signals.SIGTERM to group 14352
+2025-04-04 14:30:44,788 INFO - Process psutil.Process(pid=14352, status='terminated', exitcode=0, started='14:26:31') (14352) terminated with exit code 0
+2025-04-04 14:30:44,790 INFO - Sending Signals.SIGTERM to group 14352. PIDs of all processes in the group: []
+2025-04-04 14:30:44,790 INFO - Sending the signal Signals.SIGTERM to group 14352
+2025-04-04 14:30:44,790 INFO - Sending the signal Signals.SIGTERM to process 14352 as process group is missing.
+2025-04-04 14:30:44,790 INFO - Exited execute loop
+2025-04-04 14:46:34,393 INFO - Starting the scheduler
+2025-04-04 14:46:34,394 INFO - Processing each file at most -1 times
+2025-04-04 14:46:34,399 INFO - Launched DagFileProcessorManager with pid: 22343
+2025-04-04 14:46:34,401 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 14:46:34,405 INFO - Configured default timezone Timezone('UTC')
+2025-04-04 14:46:42,753 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+Referer: https://bookish-space-spoon-r6pww65g7qx35qx9.github.dev/
+X-Request-Id: 80a1a08a14f3340bbf1bc587db5f56f2
+X-Real-Ip: 176.198.203.233
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: bookish-space-spoon-r6pww65g7qx35qx9-8793.app.github.dev
+X-Forwarded-For: 176.198.203.233
+Proxy-Connection: Keep-Alive
+
+.
+2025-04-04 14:46:42,754 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-04-04 14:46:43,101 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+Referer: https://bookish-space-spoon-r6pww65g7qx35qx9-8793.app.github.dev/
+X-Request-Id: 6b99ca6e804589347747fa5358ee8bb6
+X-Real-Ip: 176.198.203.233
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua: "Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: bookish-space-spoon-r6pww65g7qx35qx9-8793.app.github.dev
+X-Forwarded-For: 176.198.203.233
+Proxy-Connection: Keep-Alive
+
+.
+2025-04-04 14:46:43,102 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-04-04 14:46:52,932 WARNING - The Authorization header is missing: Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+Referer: https://bookish-space-spoon-r6pww65g7qx35qx9.github.dev/
+X-Request-Id: 26d7c1fb496b9c7c5abb5ade489693f9
+X-Real-Ip: 176.198.203.233
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /
+X-Scheme: https
+Sec-Ch-Ua: "Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Fetch-Site: same-site
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Priority: u=0, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: bookish-space-spoon-r6pww65g7qx35qx9-8793.app.github.dev
+X-Forwarded-For: 176.198.203.233
+Proxy-Connection: Keep-Alive
+
+.
+2025-04-04 14:46:52,932 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-04-04 14:46:53,303 WARNING - The Authorization header is missing: Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Host: localhost:8793
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-GB,en;q=0.9,en-US;q=0.8
+Referer: https://bookish-space-spoon-r6pww65g7qx35qx9-8793.app.github.dev/
+X-Request-Id: 1377f10d23497c3979aef269e8f441b6
+X-Real-Ip: 176.198.203.233
+X-Forwarded-Port: 443
+X-Forwarded-Scheme: https
+X-Original-Uri: /favicon.ico
+X-Scheme: https
+Sec-Ch-Ua-Platform: "Windows"
+Sec-Ch-Ua: "Microsoft Edge";v="135", "Not-A.Brand";v="8", "Chromium";v="135"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Priority: u=1, i
+X-Original-Proto: https
+X-Forwarded-Proto: https
+X-Forwarded-Host: bookish-space-spoon-r6pww65g7qx35qx9-8793.app.github.dev
+X-Forwarded-For: 176.198.203.233
+Proxy-Connection: Keep-Alive
+
+.
+2025-04-04 14:46:53,304 WARNING - Unknown error
+Traceback (most recent call last):
+  File "/home/vscode/.local/lib/python3.10/site-packages/airflow/utils/serve_logs.py", line 61, in validate_pre_signed_url
+    abort(403)
+  File "/home/vscode/.local/lib/python3.10/site-packages/flask/helpers.py", line 310, in abort
+    current_app.aborter(code, *args, **kwargs)
+  File "/home/vscode/.local/lib/python3.10/site-packages/werkzeug/exceptions.py", line 864, in __call__
+    raise self.mapping[code](*args, **kwargs)
+werkzeug.exceptions.Forbidden: 403 Forbidden: You don't have the permission to access the requested resource. It is either read-protected or not readable by the server.
+2025-04-04 14:51:34,600 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 14:54:45,829 INFO - Exiting gracefully upon receiving signal 15
+2025-04-04 14:54:46,832 INFO - Sending Signals.SIGTERM to group 22343. PIDs of all processes in the group: [22343]
+2025-04-04 14:54:46,832 INFO - Sending the signal Signals.SIGTERM to group 22343
+2025-04-04 14:54:46,966 INFO - Process psutil.Process(pid=22343, status='terminated', exitcode=0, started='14:46:34') (22343) terminated with exit code 0
+2025-04-04 14:54:46,967 INFO - Sending Signals.SIGTERM to group 22343. PIDs of all processes in the group: []
+2025-04-04 14:54:46,968 INFO - Sending the signal Signals.SIGTERM to group 22343
+2025-04-04 14:54:46,968 INFO - Sending the signal Signals.SIGTERM to process 22343 as process group is missing.
+2025-04-04 14:54:46,968 INFO - Exited execute loop
+2025-04-04 14:56:18,558 INFO - Starting the scheduler
+2025-04-04 14:56:18,559 INFO - Processing each file at most -1 times
+2025-04-04 14:56:18,563 INFO - Launched DagFileProcessorManager with pid: 26926
+2025-04-04 14:56:18,565 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 14:56:18,568 INFO - Configured default timezone Timezone('UTC')
+2025-04-04 15:01:18,635 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:06:18,677 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:11:18,886 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:12:09,495 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:12:08.655753+00:00 [scheduled]>
+2025-04-04 15:12:09,496 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2025-04-04 15:12:09,496 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:12:08.655753+00:00 [scheduled]>
+2025-04-04 15:12:09,498 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:12:08.655753+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-04 15:12:09,498 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:12:08.655753+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:12:09,501 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:12:08.655753+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:12:10,971 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:12:08.655753+00:00', try_number=1, map_index=-1)
+2025-04-04 15:12:10,976 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2025-04-04T15:12:08.655753+00:00, map_index=-1, run_start_date=2025-04-04 15:12:10.635950+00:00, run_end_date=2025-04-04 15:12:10.735436+00:00, run_duration=0.099486, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=4, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-04 15:12:09.496903+00:00, queued_by_job_id=3, pid=32866
+2025-04-04 15:12:11,005 ERROR - Marking run <DagRun one_task_dag @ 2025-04-04 15:12:08.655753+00:00: manual__2025-04-04T15:12:08.655753+00:00, state:running, queued_at: 2025-04-04 15:12:08.677571+00:00. externally triggered: True> failed
+2025-04-04 15:12:11,006 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2025-04-04 15:12:08.655753+00:00, run_id=manual__2025-04-04T15:12:08.655753+00:00, run_start_date=2025-04-04 15:12:09.471146+00:00, run_end_date=2025-04-04 15:12:11.006057+00:00, run_duration=1.534911, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-04 15:12:08.655753+00:00, data_interval_end=2025-04-04 15:12:08.655753+00:00, dag_hash=426b1852d66b5eaf66bb7749a4a71184
+2025-04-04 15:12:41,188 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:12:40.061253+00:00 [scheduled]>
+2025-04-04 15:12:41,189 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2025-04-04 15:12:41,189 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:12:40.061253+00:00 [scheduled]>
+2025-04-04 15:12:41,191 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:12:40.061253+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-04 15:12:41,192 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:12:40.061253+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:12:41,194 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:12:40.061253+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:12:42,668 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:12:40.061253+00:00', try_number=1, map_index=-1)
+2025-04-04 15:12:42,671 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2025-04-04T15:12:40.061253+00:00, map_index=-1, run_start_date=2025-04-04 15:12:42.294839+00:00, run_end_date=2025-04-04 15:12:42.394149+00:00, run_duration=0.09931, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=5, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-04 15:12:41.190373+00:00, queued_by_job_id=3, pid=33046
+2025-04-04 15:12:42,704 ERROR - Marking run <DagRun one_task_dag @ 2025-04-04 15:12:40.061253+00:00: manual__2025-04-04T15:12:40.061253+00:00, state:running, queued_at: 2025-04-04 15:12:40.070976+00:00. externally triggered: True> failed
+2025-04-04 15:12:42,704 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2025-04-04 15:12:40.061253+00:00, run_id=manual__2025-04-04T15:12:40.061253+00:00, run_start_date=2025-04-04 15:12:41.165388+00:00, run_end_date=2025-04-04 15:12:42.704562+00:00, run_duration=1.539174, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-04 15:12:40.061253+00:00, data_interval_end=2025-04-04 15:12:40.061253+00:00, dag_hash=426b1852d66b5eaf66bb7749a4a71184
+2025-04-04 15:16:18,913 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:17:56,970 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:17:55.178142+00:00 [scheduled]>
+2025-04-04 15:17:56,971 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2025-04-04 15:17:56,971 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:17:55.178142+00:00 [scheduled]>
+2025-04-04 15:17:56,972 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:17:55.178142+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-04 15:17:56,972 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:17:55.178142+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:17:56,975 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:17:55.178142+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:17:58,432 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:17:55.178142+00:00', try_number=1, map_index=-1)
+2025-04-04 15:17:58,435 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2025-04-04T15:17:55.178142+00:00, map_index=-1, run_start_date=2025-04-04 15:17:58.052244+00:00, run_end_date=2025-04-04 15:17:58.155774+00:00, run_duration=0.10353, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=6, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-04 15:17:56.971619+00:00, queued_by_job_id=3, pid=35076
+2025-04-04 15:17:58,459 ERROR - Marking run <DagRun one_task_dag @ 2025-04-04 15:17:55.178142+00:00: manual__2025-04-04T15:17:55.178142+00:00, state:running, queued_at: 2025-04-04 15:17:55.190006+00:00. externally triggered: True> failed
+2025-04-04 15:17:58,459 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2025-04-04 15:17:55.178142+00:00, run_id=manual__2025-04-04T15:17:55.178142+00:00, run_start_date=2025-04-04 15:17:56.954500+00:00, run_end_date=2025-04-04 15:17:58.459530+00:00, run_duration=1.50503, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-04 15:17:55.178142+00:00, data_interval_end=2025-04-04 15:17:55.178142+00:00, dag_hash=426b1852d66b5eaf66bb7749a4a71184
+2025-04-04 15:20:57,447 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:20:56.681230+00:00 [scheduled]>
+2025-04-04 15:20:57,449 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2025-04-04 15:20:57,449 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:20:56.681230+00:00 [scheduled]>
+2025-04-04 15:20:57,453 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:20:56.681230+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-04 15:20:57,453 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:20:56.681230+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:20:57,458 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:20:56.681230+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:20:58,956 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:20:56.681230+00:00', try_number=1, map_index=-1)
+2025-04-04 15:20:58,960 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2025-04-04T15:20:56.681230+00:00, map_index=-1, run_start_date=2025-04-04 15:20:58.588948+00:00, run_end_date=2025-04-04 15:20:58.703908+00:00, run_duration=0.11496, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=7, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-04 15:20:57.449927+00:00, queued_by_job_id=3, pid=36365
+2025-04-04 15:20:59,090 ERROR - Marking run <DagRun one_task_dag @ 2025-04-04 15:20:56.681230+00:00: manual__2025-04-04T15:20:56.681230+00:00, state:running, queued_at: 2025-04-04 15:20:56.686665+00:00. externally triggered: True> failed
+2025-04-04 15:20:59,091 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2025-04-04 15:20:56.681230+00:00, run_id=manual__2025-04-04T15:20:56.681230+00:00, run_start_date=2025-04-04 15:20:57.408938+00:00, run_end_date=2025-04-04 15:20:59.091273+00:00, run_duration=1.682335, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-04 15:20:56.681230+00:00, data_interval_end=2025-04-04 15:20:56.681230+00:00, dag_hash=426b1852d66b5eaf66bb7749a4a71184
+2025-04-04 15:21:18,951 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:24:48,098 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:24:47.306159+00:00 [scheduled]>
+2025-04-04 15:24:48,098 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2025-04-04 15:24:48,098 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:24:47.306159+00:00 [scheduled]>
+2025-04-04 15:24:48,099 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:24:47.306159+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-04 15:24:48,100 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:24:47.306159+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:24:48,102 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:24:47.306159+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:24:49,600 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:24:47.306159+00:00', try_number=1, map_index=-1)
+2025-04-04 15:24:49,604 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2025-04-04T15:24:47.306159+00:00, map_index=-1, run_start_date=2025-04-04 15:24:49.222634+00:00, run_end_date=2025-04-04 15:24:49.324032+00:00, run_duration=0.101398, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=8, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-04 15:24:48.099117+00:00, queued_by_job_id=3, pid=38060
+2025-04-04 15:24:49,739 ERROR - Marking run <DagRun one_task_dag @ 2025-04-04 15:24:47.306159+00:00: manual__2025-04-04T15:24:47.306159+00:00, state:running, queued_at: 2025-04-04 15:24:47.316928+00:00. externally triggered: True> failed
+2025-04-04 15:24:49,739 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2025-04-04 15:24:47.306159+00:00, run_id=manual__2025-04-04T15:24:47.306159+00:00, run_start_date=2025-04-04 15:24:48.064418+00:00, run_end_date=2025-04-04 15:24:49.739893+00:00, run_duration=1.675475, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-04 15:24:47.306159+00:00, data_interval_end=2025-04-04 15:24:47.306159+00:00, dag_hash=426b1852d66b5eaf66bb7749a4a71184
+2025-04-04 15:25:03,915 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:25:02.333248+00:00 [scheduled]>
+2025-04-04 15:25:03,915 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2025-04-04 15:25:03,915 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:25:02.333248+00:00 [scheduled]>
+2025-04-04 15:25:03,917 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:25:02.333248+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-04 15:25:03,917 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:25:02.333248+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:25:03,920 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:25:02.333248+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:25:05,320 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:25:02.333248+00:00', try_number=1, map_index=-1)
+2025-04-04 15:25:05,323 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2025-04-04T15:25:02.333248+00:00, map_index=-1, run_start_date=2025-04-04 15:25:04.993749+00:00, run_end_date=2025-04-04 15:25:05.089788+00:00, run_duration=0.096039, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=9, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-04 15:25:03.916279+00:00, queued_by_job_id=3, pid=38158
+2025-04-04 15:25:05,354 ERROR - Marking run <DagRun one_task_dag @ 2025-04-04 15:25:02.333248+00:00: manual__2025-04-04T15:25:02.333248+00:00, state:running, queued_at: 2025-04-04 15:25:02.338308+00:00. externally triggered: True> failed
+2025-04-04 15:25:05,354 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2025-04-04 15:25:02.333248+00:00, run_id=manual__2025-04-04T15:25:02.333248+00:00, run_start_date=2025-04-04 15:25:03.896506+00:00, run_end_date=2025-04-04 15:25:05.354734+00:00, run_duration=1.458228, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-04 15:25:02.333248+00:00, data_interval_end=2025-04-04 15:25:02.333248+00:00, dag_hash=426b1852d66b5eaf66bb7749a4a71184
+2025-04-04 15:26:17,917 INFO - 1 tasks up for execution:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:26:16.761449+00:00 [scheduled]>
+2025-04-04 15:26:17,918 INFO - DAG one_task_dag has 0/16 running and queued tasks
+2025-04-04 15:26:17,918 INFO - Setting the following tasks to queued state:
+	<TaskInstance: one_task_dag.one_task manual__2025-04-04T15:26:16.761449+00:00 [scheduled]>
+2025-04-04 15:26:17,919 INFO - Sending TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:26:16.761449+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-04 15:26:17,919 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:26:16.761449+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:26:17,922 INFO - Executing command: ['airflow', 'tasks', 'run', 'one_task_dag', 'one_task', 'manual__2025-04-04T15:26:16.761449+00:00', '--local', '--subdir', 'DAGS_FOLDER/one_task_dag.py']
+2025-04-04 15:26:19,438 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='one_task_dag', task_id='one_task', run_id='manual__2025-04-04T15:26:16.761449+00:00', try_number=1, map_index=-1)
+2025-04-04 15:26:19,443 INFO - TaskInstance Finished: dag_id=one_task_dag, task_id=one_task, run_id=manual__2025-04-04T15:26:16.761449+00:00, map_index=-1, run_start_date=2025-04-04 15:26:19.013750+00:00, run_end_date=2025-04-04 15:26:19.129718+00:00, run_duration=0.115968, state=failed, executor_state=success, try_number=1, max_tries=0, job_id=10, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-04 15:26:17.918701+00:00, queued_by_job_id=3, pid=38677
+2025-04-04 15:26:19,455 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:26:19,485 ERROR - Marking run <DagRun one_task_dag @ 2025-04-04 15:26:16.761449+00:00: manual__2025-04-04T15:26:16.761449+00:00, state:running, queued_at: 2025-04-04 15:26:16.766549+00:00. externally triggered: True> failed
+2025-04-04 15:26:19,485 INFO - DagRun Finished: dag_id=one_task_dag, execution_date=2025-04-04 15:26:16.761449+00:00, run_id=manual__2025-04-04T15:26:16.761449+00:00, run_start_date=2025-04-04 15:26:17.901556+00:00, run_end_date=2025-04-04 15:26:19.485672+00:00, run_duration=1.584116, state=failed, external_trigger=True, run_type=manual, data_interval_start=2025-04-04 15:26:16.761449+00:00, data_interval_end=2025-04-04 15:26:16.761449+00:00, dag_hash=426b1852d66b5eaf66bb7749a4a71184
+2025-04-04 15:31:19,483 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:36:19,510 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:41:19,537 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:46:19,566 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:51:19,593 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 15:51:46,588 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2025-04-04T15:51:45.718554+00:00 [scheduled]>
+2025-04-04 15:51:46,589 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2025-04-04 15:51:46,589 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2025-04-04T15:51:45.718554+00:00 [scheduled]>
+2025-04-04 15:51:46,614 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2025-04-04T15:51:45.718554+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2025-04-04 15:51:46,615 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2025-04-04T15:51:45.718554+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-04-04 15:51:46,627 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2025-04-04T15:51:45.718554+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-04-04 15:51:48,284 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2025-04-04T15:51:45.718554+00:00', try_number=1, map_index=-1)
+2025-04-04 15:51:48,287 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2025-04-04T15:51:45.718554+00:00, map_index=-1, run_start_date=2025-04-04 15:51:47.907300+00:00, run_end_date=2025-04-04 15:51:48.014302+00:00, run_duration=0.107002, state=success, executor_state=success, try_number=1, max_tries=0, job_id=11, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-04-04 15:51:46.591026+00:00, queued_by_job_id=3, pid=48525
+2025-04-04 15:51:48,326 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2025-04-04T15:51:45.718554+00:00 [scheduled]>
+2025-04-04 15:51:48,327 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2025-04-04 15:51:48,327 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2025-04-04T15:51:45.718554+00:00 [scheduled]>
+2025-04-04 15:51:48,328 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2025-04-04T15:51:45.718554+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-04 15:51:48,328 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2025-04-04T15:51:45.718554+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-04-04 15:51:48,331 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2025-04-04T15:51:45.718554+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-04-04 15:51:54,824 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2025-04-04T15:51:45.718554+00:00', try_number=1, map_index=-1)
+2025-04-04 15:51:54,827 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2025-04-04T15:51:45.718554+00:00, map_index=-1, run_start_date=2025-04-04 15:51:49.428365+00:00, run_end_date=2025-04-04 15:51:54.533473+00:00, run_duration=5.105108, state=success, executor_state=success, try_number=1, max_tries=0, job_id=12, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-04 15:51:48.327814+00:00, queued_by_job_id=3, pid=48536
+2025-04-04 15:51:54,962 INFO - Marking run <DagRun two_task_dag @ 2025-04-04 15:51:45.718554+00:00: manual__2025-04-04T15:51:45.718554+00:00, state:running, queued_at: 2025-04-04 15:51:45.733762+00:00. externally triggered: True> successful
+2025-04-04 15:51:54,963 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2025-04-04 15:51:45.718554+00:00, run_id=manual__2025-04-04T15:51:45.718554+00:00, run_start_date=2025-04-04 15:51:46.516982+00:00, run_end_date=2025-04-04 15:51:54.963226+00:00, run_duration=8.446244, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-04 15:51:45.718554+00:00, data_interval_end=2025-04-04 15:51:45.718554+00:00, dag_hash=a09d6de304709dd5ea129fc4a5b66bc1
+2025-04-04 15:52:45,255 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2025-04-04T15:52:44.763242+00:00 [scheduled]>
+2025-04-04 15:52:45,255 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2025-04-04 15:52:45,256 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_0 manual__2025-04-04T15:52:44.763242+00:00 [scheduled]>
+2025-04-04 15:52:45,257 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2025-04-04T15:52:44.763242+00:00', try_number=1, map_index=-1) to executor with priority 2 and queue default
+2025-04-04 15:52:45,257 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2025-04-04T15:52:44.763242+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-04-04 15:52:45,260 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_0', 'manual__2025-04-04T15:52:44.763242+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-04-04 15:52:46,757 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_0', run_id='manual__2025-04-04T15:52:44.763242+00:00', try_number=1, map_index=-1)
+2025-04-04 15:52:46,761 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_0, run_id=manual__2025-04-04T15:52:44.763242+00:00, map_index=-1, run_start_date=2025-04-04 15:52:46.393079+00:00, run_end_date=2025-04-04 15:52:46.496886+00:00, run_duration=0.103807, state=success, executor_state=success, try_number=1, max_tries=0, job_id=13, pool=default_pool, queue=default, priority_weight=2, operator=BashOperator, queued_dttm=2025-04-04 15:52:45.256472+00:00, queued_by_job_id=3, pid=48871
+2025-04-04 15:52:46,797 INFO - 1 tasks up for execution:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2025-04-04T15:52:44.763242+00:00 [scheduled]>
+2025-04-04 15:52:46,797 INFO - DAG two_task_dag has 0/16 running and queued tasks
+2025-04-04 15:52:46,797 INFO - Setting the following tasks to queued state:
+	<TaskInstance: two_task_dag.bash_task_1 manual__2025-04-04T15:52:44.763242+00:00 [scheduled]>
+2025-04-04 15:52:46,799 INFO - Sending TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2025-04-04T15:52:44.763242+00:00', try_number=1, map_index=-1) to executor with priority 1 and queue default
+2025-04-04 15:52:46,799 INFO - Adding to queue: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2025-04-04T15:52:44.763242+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-04-04 15:52:46,802 INFO - Executing command: ['airflow', 'tasks', 'run', 'two_task_dag', 'bash_task_1', 'manual__2025-04-04T15:52:44.763242+00:00', '--local', '--subdir', 'DAGS_FOLDER/two_task_dag.py']
+2025-04-04 15:52:53,307 INFO - Received executor event with state success for task instance TaskInstanceKey(dag_id='two_task_dag', task_id='bash_task_1', run_id='manual__2025-04-04T15:52:44.763242+00:00', try_number=1, map_index=-1)
+2025-04-04 15:52:53,313 INFO - TaskInstance Finished: dag_id=two_task_dag, task_id=bash_task_1, run_id=manual__2025-04-04T15:52:44.763242+00:00, map_index=-1, run_start_date=2025-04-04 15:52:47.896797+00:00, run_end_date=2025-04-04 15:52:53.016517+00:00, run_duration=5.11972, state=success, executor_state=success, try_number=1, max_tries=0, job_id=14, pool=default_pool, queue=default, priority_weight=1, operator=BashOperator, queued_dttm=2025-04-04 15:52:46.798268+00:00, queued_by_job_id=3, pid=48882
+2025-04-04 15:52:53,350 INFO - Marking run <DagRun two_task_dag @ 2025-04-04 15:52:44.763242+00:00: manual__2025-04-04T15:52:44.763242+00:00, state:running, queued_at: 2025-04-04 15:52:44.768702+00:00. externally triggered: True> successful
+2025-04-04 15:52:53,351 INFO - DagRun Finished: dag_id=two_task_dag, execution_date=2025-04-04 15:52:44.763242+00:00, run_id=manual__2025-04-04T15:52:44.763242+00:00, run_start_date=2025-04-04 15:52:45.238307+00:00, run_end_date=2025-04-04 15:52:53.351477+00:00, run_duration=8.11317, state=success, external_trigger=True, run_type=manual, data_interval_start=2025-04-04 15:52:44.763242+00:00, data_interval_end=2025-04-04 15:52:44.763242+00:00, dag_hash=a09d6de304709dd5ea129fc4a5b66bc1
+2025-04-04 15:56:19,628 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 16:01:19,654 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 16:06:19,682 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 16:11:19,711 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 16:16:19,738 INFO - Resetting orphaned tasks for active dag runs
+2025-04-04 16:21:19,765 INFO - Resetting orphaned tasks for active dag runs
